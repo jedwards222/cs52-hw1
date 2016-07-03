@@ -1,0 +1,188 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Assistant', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 2%;
+}
+
+h2 {
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+input {
+  height: 20px;
+  width: 200px;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+  margin: 10px;
+  margin-right: 2px;
+  transition-duration: .5s;
+  font-size: 16px;
+  padding: 15px 16px;
+}
+input:focus{
+  outline:none;
+  transition-duration: .5s;
+  border: 2px solid dimgray;
+}
+
+/* Styling for the Submit Button */
+button {
+  margin: 10px;
+  margin-left: 2px;
+  border: none;
+  color: white;
+  background-color: mediumseagreen;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  outline:none;
+  transition-duration: .25s;
+}
+button:hover {
+  background-color: seagreen;
+  transition-duration: .5s;
+}
+button:active {
+  background-color: darkgreen;
+  transition-duration: 0s;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.name-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-shrink: 1;
+}
+
+.name-box .container {
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+  width: 400px;
+  border-radius: 8px;
+}
+
+.submit-box {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.container p {
+  margin:auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.main {
+  background: linear-gradient(to top, midnightblue, Transparent 90%), url(http://www.walldevil.com/wallpapers/w01/436714-city-lights-lauterbrunnen-matterhorn-mountains-night-time-stars-valleys.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Bottom of Page Links formatting */
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  border-top: 1px solid rgba(200, 200, 200, 0.5);;
+}
+.links ul {
+  margin:auto;
+  margin-top: 30px;
+}
+.link-heading {
+  font-size: 18px;
+}
+
+/* Navbar Formatting */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: flex-end;
+}
+.navbar li {
+  display: flex;
+  list-style-type: none;
+  margin: 15px;
+  font-size: 20px;
+}
+
+
+/* Hyperlink formatting */
+a {
+  color:white;
+  text-decoration: none;
+}
+a:hover {
+  color:lightgray;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 20px;
+  background-color: rgb(50,50,120);
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+footer ul li {
+  display: flex;
+  margin-right: 50px;
+}
+
+/* Pinterest and Facebook Icons */
+.fa-pinterest-p {
+  color:red;
+}
+.fa-facebook-square {
+  color:steelblue;
+}
+
+@media only screen and (max-width: 640px) {
+
+}
